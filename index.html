@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/478c858f1a.js" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Inter&display=swap" rel="stylesheet">
+    <title>James Sto. Tomas' Portfolio</title>
+</head>
+<body>
+    <a href="#mainContent" class="skipLink">Skip to the main content.</a>
+
+    <header>
+
+        <div class="navAndNameContainer wrapper">
+            <nav class="navBar">
+                <div class="navBarWrapper">
+                    <a href="#" class="logo">
+                        <h2 >JS</h2>
+                    </a>
+                    <ul class="mainMenu">
+                        <li><a href="#" class="navLinks">Home</a></li>
+                        <li><a href="#about" class="navLinks">About</a></li>
+                        <li><a href="#projects" class="navLinks">Projects</a></li>
+                        <li><a href="#contact" class="navLinks">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+    
+    
+                <div class="nameCard">
+                    <div class="nameText">
+                        <h1 class="myName">James <span >Sto. Tomas</span></h1>
+                        <!-- <ul class="wordCarousel">
+                            <li class="carouselItem">Developer</li>
+                            <li class="carouselItem">Mechanic</li>
+                            <li class="carouselItem">Dad</li>
+                        </ul> -->
+                        <!-- <h3>Web Developer | Dad | Mechanic</h3> -->
+                    </div>
+                    <div class="introText">
+                        <h2>I fix cars, raise kids, and write code. <br>Based in Toronto</h2>
+                    </div>
+                </div>
+        </div>
+
+        <!-- **********mobile nav******** -->
+        <div class="navIcons mobileNavContainer">
+            <button class="mobileNavIcon" id="hamburger">
+                <i class="fa-solid fa-bars hamburgerIcon"></i>
+            </button>
+            
+            <div class="slideOutNav">
+                <nav class="mobileMenuAndCloseContainer">
+                    <ul class="mainMenu mobileNav">
+                        <li class="mobileNavItem"><a href="./index.html">Home</a></li>
+                        <li class="mobileNavItem"><a href="#about">About</a></li>
+                        <li class="mobileNavItem"><a href="#projects">Projects</a></li>
+                        <li class="mobileNavItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                    <button id="menuClose" class="menuClose">
+                        <i class="fa-solid fa-x"></i>
+                    </button>
+                </nav>
+            </div>
+        </div>
+        
+
+    </header>
+
+
+    <main id="mainContent">
+
+        <section class="aboutMe" id="about">
+        <div class="custom-shape-divider-bottom-1670708983">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path
+            d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+            class="shape-fill"></path>
+            </svg>
+        </div>
+            <div class="wrapper aboutMeAndPicContainer">
+                <div class="headshot">
+                    <img src="./assets/jlledited.png" alt="James Santo Tomas with two children">
+                </div>
+                <div class="aboutMeText">
+                    <h2>About Me <i class="fa-solid fa-star"></i></h2>
+                    <p>Hi! I'm James Santo Tomas. A front end web developer from Toronto with an automotive background. I have a knack for creative problem solving and using analytical thinking to create responsive, user friendly, and accessible websites and applications. </p>
+
+                    <p>When I'm not coding, I am playing with my 5 year old and 3 year old children. I can also be found fixing cars, playing video games or cleaning my sneakers! If you want to chat about cars, sneakers, or just life in general, feel free to send me an email or a DM!</p>
+                    <div class="socialContainer aboutMeLinks">
+                        <a href="https://www.linkedin.com/in/james-sto-tomas/" class="linkedinLink">
+                            <i class="fa-brands fa-linkedin-in socialIcons"></i>
+                        </a>
+                    
+                        <a href="https://twitter.com/jamesertron"  class="twitterLink">
+                            <i class="fa-brands fa-twitter socialIcons"></i>
+                        </a>
+                    
+                        <a href="https://www.instagram.com/jamesertron/" class="igLink">
+                            <i class="fa-brands fa-instagram socialIcons"></i>
+                        </a>
+
+                        <a href="mailto:jam3sstotomas@gmail.com"  class="emailLink">
+                            <i class="fa-solid fa-envelope socialIcons"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="skills">
+            <div class="wrapper skillsWrapper">
+                <h2>Skills <i class="fa-solid fa-wrench"></i></h2>
+                <ul class="skillsList">
+                    <li>
+                        <i class="fa-brands fa-html5 skillListItem"></i>
+                        <p>HTML5</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-css3-alt skillListItem"></i>
+                        <p>CSS3</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-square-js skillListItem"></i>
+                        <p>JavaScript ES6</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-sass skillListItem"></i>
+                        <p>SASS</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-react skillListItem"></i>
+                        <p>React</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-network-wired skillListItem"></i>
+                        <p>REST API</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-brands fa-github skillListItem"></i>
+                        <p>GitHub and GIT</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-code-branch skillListItem"></i>
+                        <p>Paired Programming</p>
+                    </li>
+
+                    <li>
+                        <i class="devicon-firebase-plain skillListItem"></i>
+                        <p>Firebase</p>
+                    </li>
+
+                    <li>
+                        <i class="fa-solid fa-universal-access skillListItem"></i>
+                        <p>Accessibility</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <section class="projects" id="projects">
+    
+            <div class="custom-shape-divider-bottom-1670715479">
+                <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                    <path
+                        d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
+                        class="shape-fill"></path>
+                </svg>
+            </div>
+
+            <div class="wrapper">
+                <h2 class="projectsHeading">Projects <i class="fa-regular fa-file-code"></i></h2>
+        
+                <div class="projectContainer">
+                    <div class="projectImg">
+                        <img src="./assets/battlechart.png" alt="A Pokemon Battle Chart">
+                    </div>
+                    
+                    <div class="projectSummary">
+                        <h4>Pokemon Battle Chart</h4>
+                        <p class="languagesUsed">HTML, CSS, JavaScript</p>
+                        <p class="projectDescription">A helpful tool to use in the heat of a Pokemon battle! It utilizes the PokeAPI help you find out the strengths and weaknesses of your pokemon based on it's type or search for your pokemon by name. This paired programming project was made with Jessica Handrahan</p>
+        
+                        <div class="linkContainer">
+                            <a href="https://glittering-pothos-778eba.netlify.app/" class="projectButton">Live</a>
+                            <a href="https://github.com/pocket0079/projectTwo" class="projectButton">GitHub</a>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="projectContainer">
+                    <div class="projectImg">
+                        <img src="./assets/delicious.png" alt="A screenshot of the Delicious restaurant site">
+                    </div>
+        
+                    <div class="projectSummary">
+                        <h4>Delicious</h4>
+                        <p class="languagesUsed">HTML, SASS, JavaScript</p>
+                        <p class="projectDescription">A designer provided PDF converted into a multi-page, responsive website for a mock restaurant named Delicious.</p>
+        
+                        <div class="linkContainer">
+                            <a href="https://transcendent-brigadeiros-c9ad8f.netlify.app/" class="projectButton">Live</a>
+                            <a href="https://github.com/pocket0079/jamesStoTomasProjectOne"  class="projectButton">GitHub</a>
+                        </div>
+        
+                    </div>
+                </div>
+        
+                <div class="projectContainer">
+                    <div class="projectImg">
+                        <img src="./assets/toyb.png" alt="A screenshot of the website ToyBox">
+                    </div>
+        
+                    <div class="projectSummary">
+                        <h4>ToyBox</h4>
+                        <p class="languagesUsed">HTML, SASS, JavaScript</p>
+                        <p class="projectDescription">A multi-page, responsive, e-commerce website for a toy company named ToyBox</p>
+        
+                        <div class="linkContainer">
+                            <a href="https://luxury-taiyaki-48fff3.netlify.app/"  class="projectButton">Live</a>
+                            <a href="https://github.com/pocket0079/ecommerce-codealong-juno"  class="projectButton">GitHub</a>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="contact" id="contact">
+            <div class="wrapper contactFlexContainer">
+                <div class="contactTitleAndLinks">
+                    <h2>Get in Touch!</h2>
+                    <p>Have any questions?  Or even if you want to have a chat about video games, sneakers, or anything at all, feel free to send me a DM on social media or send me an email! </p>
+                    <div class="socialContainer">
+                        <a href="https://www.linkedin.com/in/james-sto-tomas/" class="linkedinLink">
+                            <i class="fa-brands fa-linkedin-in socialIcons footerIcons"></i>
+                        </a>
+                    
+                        <a href="https://twitter.com/jamesertron" class="twitterLink">
+                            <i class="fa-brands fa-twitter socialIcons footerIcons"></i>
+                        </a>
+                    
+                        <a href="https://www.instagram.com/jamesertron/" class="igLink">
+                            <i class="fa-brands fa-instagram socialIcons footerIcons"></i>
+                        </a>
+                    
+                        <a href="mailto:jam3sstotomas@gmail.com" class="emailLink">
+                            <i class="fa-solid fa-envelope socialIcons footerIcons"></i>
+                        </a>
+                    </div>
+                        </a>
+                    </div>
+                    <form action="mailto:jam3sstotomas@gmail.com" method="GET">
+                        <div class="nameEmail">
+                            <label for="name" class="sr-only">Your Name</label>
+                            <input type="text" id="name" placeholder="Your Name" class="formName">
+                    
+                            <label for="email" class="sr-only">Your Email</label>
+                            <input type="email" id="email" placeholder="Your Email" class="formEmail">
+                        </div>
+                    
+                        <label for="message" class="sr-only">What's on your mind?</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" class="message"></textarea>
+                    
+                        <button class="contactButton" type="submit">Send Message</button>
+                    </form>
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Built by James Sto. Tomas</p>
+    </footer>
+</body>
+</html>

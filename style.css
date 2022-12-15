@@ -338,7 +338,7 @@ h2, h3 {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
-    height: 109px;
+    height: 111px;
     transform: rotateY(180deg);
 }
 

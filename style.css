@@ -449,6 +449,7 @@ form {
 
 .contactButton {
     background-color: #e9c4aa;
+    color: black;
     width: 37%;
     cursor: pointer;
     border-radius: 12px;
@@ -461,7 +462,7 @@ form {
 footer{
     text-align: center;
     background-color: #d1493d;
-    color: wheat;
+    color: black;
 }
 
 footer > p {
@@ -581,6 +582,7 @@ footer > p {
     .mobileNavIcon,
     .menuClose {
         background-color: transparent;
+        color: #f45656;
         border: none;
         cursor: pointer;
     }

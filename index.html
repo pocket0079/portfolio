@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/478c858f1a.js" crossorigin="anonymous"></script>
-    <script src="./script.js"></script>
     <link rel="stylesheet" href="./style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -26,7 +25,7 @@
             <nav class="mobileMenuAndCloseContainer">
                 <ul class="mainMenu mobileNav">
                     <li class="mobileNavItem"><a href="./index.html">Home</a></li>
-                    <li class="mobileNavItem"><a href="#about">About</a></li>
+                    <li class="mobileNavItem"><a  href="#about">About</a></li>
                     <li class="mobileNavItem"><a href="#projects">Projects</a></li>
                     <li class="mobileNavItem"><a href="#contact">Contact</a></li>
                 </ul>
@@ -59,12 +58,6 @@
                 <div class="nameCard">
                     <div class="nameText">
                         <h1 class="myName">James <span >Sto. Tomas</span></h1>
-                        <!-- <ul class="wordCarousel">
-                            <li class="carouselItem">Developer</li>
-                            <li class="carouselItem">Mechanic</li>
-                            <li class="carouselItem">Dad</li>
-                        </ul> -->
-                        <!-- <h3>Web Developer | Dad | Mechanic</h3> -->
                     </div>
                     <div class="introText">
                         <h2>I fix cars, raise kids, and write code. <br>Based in Toronto</h2>
@@ -76,8 +69,8 @@
 
     <main id="mainContent">
 
-        <section class="aboutMe" id="about">
-        <div class="custom-shape-divider-bottom-1670708983">
+        <section class="aboutMe">
+        <div class="custom-shape-divider-bottom-1670708983" id="about">
             <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
             <path
             d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
@@ -154,9 +147,9 @@
             </div>
         </section>
     
-        <section class="projects" id="projects">
+        <section class="projects">
     
-            <div class="custom-shape-divider-bottom-1670715479">
+            <div class="custom-shape-divider-bottom-1670715479" id="projects">
                 <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
                     <path
                         d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z"
@@ -166,7 +159,25 @@
 
             <div class="wrapper">
                 <h2 class="projectsHeading">Projects <i class="fa-regular fa-file-code"></i></h2>
-        
+
+                <div class="projectContainer">
+                    <div class="projectImg">
+                        <img src="./assets/visualschedule.png" alt="A Screenshot of a Visual Schedule">
+                    </div>
+                
+                    <div class="projectSummary">
+                        <h4>Visual Schedule/To do</h4>
+                        <p class="languagesUsed">HTML, CSS, React, Firebase, API</p>
+                        <p class="projectDescription">A visual to-do app which is inspired by a similar system I use with my children. It takes a user input, uses it to make an API call to the <a href="https://unsplash.com/developers">Unsplash API</a> to help visualize a task, sequence of events, or what changes may be occurring in the day. All tasks are pushed to and recieved from Firebase</p>
+                
+                        <div class="linkContainer">
+                            <a href="https://visualscheduleapp.netlify.app/" class="projectButton">Live</a>
+                            <a href="https://github.com/pocket0079/jamesStoTomasProjectThree" class="projectButton">GitHub</a>
+                        </div>
+                
+                    </div>
+                </div>
+
                 <div class="projectContainer">
                     <div class="projectImg">
                         <img src="./assets/battlechart.png" alt="A Pokemon Battle Chart">
@@ -174,8 +185,8 @@
                     
                     <div class="projectSummary">
                         <h4>Pokemon Battle Chart</h4>
-                        <p class="languagesUsed">HTML, CSS, JavaScript</p>
-                        <p class="projectDescription">A helpful tool to use in the heat of a Pokemon battle! It utilizes the PokeAPI help you find out the strengths and weaknesses of your pokemon based on it's type or search for your pokemon by name. This paired programming project was made with Jessica Handrahan</p>
+                        <p class="languagesUsed">HTML, CSS, JavaScript, API</p>
+                        <p class="projectDescription">A helpful tool to use in the heat of a Pokemon battle! It utilizes the PokeAPI help you find out the strengths and weaknesses of your pokemon based on it's type or search for your pokemon by name. This paired programming project was made with <a href="https://jessicahandrahan.netlify.app/">Jessica Handrahan</a></p>
         
                         <div class="linkContainer">
                             <a href="https://glittering-pothos-778eba.netlify.app/" class="projectButton">Live</a>
@@ -271,4 +282,5 @@
         <p>Built by James Sto. Tomas</p>
     </footer>
 </body>
+<script src="./script.js"></script>
 </html>

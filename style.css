@@ -368,7 +368,7 @@ h2, h3 {
 }
 
 .projectImg > img {
-    border-radius: 30px;
+    border-radius: 11px;
 }
 
 .projectSummary {
@@ -386,7 +386,7 @@ h2, h3 {
 
 .linkContainer > a {
     padding: 10px 20px;
-    border-radius: 12px;
+    border-radius: 6px;
     background-color: #4B30F0;
     color: white;
     text-decoration: none;
@@ -401,7 +401,7 @@ h2, h3 {
 /* ***********CONTACT********************** */
 
 .contact {
-    background-color: #2b308f;
+    background-color: #003049;
     color: white;
 }
 
@@ -461,7 +461,7 @@ form {
 
 footer{
     text-align: center;
-    background-color: #d1493d;
+    background-color: #F27D7F;
     color: black;
 }
 
@@ -530,24 +530,26 @@ footer > p {
         position: fixed;
         top: 0;
         width: 100%;
-        max-width: 57%;
+        max-width: 100%;
         font-weight: bold;
         display: flex;
         flex-direction: column;
         z-index: 20;
         right: -450px;
-        transition: 0.3s;
-}
+        transition: 0.7s;
+    }
 
     .mobileNavItem {
+        display: block;
         width: 100%;
         padding: 25px;
         background-color: #9cf1ff;
         border-bottom: 2px solid white;
     }
 
-    .mobileNavItem > a {
-        color: white;
+    .mobileNavItem>a :focus,
+    .mobileNavItem>a :hover {
+        background-color: wheat;
     }
 
     .mobileMenuAndCloseContainer{

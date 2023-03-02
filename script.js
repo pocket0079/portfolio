@@ -1,4 +1,3 @@
-
 const navLinks = document.querySelectorAll('.mobileNavItem');
 const hamburgerButton = document.querySelector('#hamburger');
 const menuCloseButton = document.querySelector('#menuClose');
@@ -15,3 +14,9 @@ hamburgerButton.addEventListener('click', (e) => {
 menuCloseButton.addEventListener('click', (e) => {
     closeMenu();
 });
+
+navLinks.forEach((link) => {
+    link.addEventListener('click', (e) => {
+        closeMenu()
+    } )
+})

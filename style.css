@@ -2,7 +2,12 @@ html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}bo
 
 .clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
 
-html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+html { 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
 
 *, *:before, *:after {box-sizing: inherit}
 
@@ -387,7 +392,7 @@ h2, h3 {
 .linkContainer > a {
     padding: 10px 20px;
     border-radius: 6px;
-    background-color: #4B30F0;
+    background-color: #2E3532;
     color: white;
     text-decoration: none;
 }
@@ -395,14 +400,36 @@ h2, h3 {
 .linkContainer > a:hover,
 .linkContainer>a:focus {
     background-color: #d1493d;
-    transition: 0.2s;
+    transition: 0.6s;
 }
 
 /* ***********CONTACT********************** */
 
+.custom-shape-divider-bottom-1677903020 {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1677903020 svg {
+    position: relative;
+    display: block;
+    width: calc(111% + 1.3px);
+    height: 64px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1677903020 .shape-fill {
+    fill: #003049;
+}
+
 .contact {
     background-color: #003049;
     color: white;
+    position: relative;
 }
 
 .contactFlexContainer {
@@ -438,7 +465,7 @@ form {
 .formName, .formEmail {
     width: 48%;
     padding: 10px;
-    border-radius: 12px;
+    border-radius: 6px;
 }
 
 .message {
